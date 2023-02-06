@@ -6,6 +6,7 @@
     margin: 5px;  
     padding: 4px; /* inside the border*/
     display: flex; /* this will determine the placement of the subdivs (the boxes)*/
+    flex-wrap: wrap;
 }
 
 .box {
@@ -14,8 +15,8 @@
     height: 100px;
     width: 100px;
     margin: 1px;
+    flex-basis: 300px;
 }
-
 
 /* CSS by id */
 
